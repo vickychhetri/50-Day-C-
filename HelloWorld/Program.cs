@@ -3,9 +3,14 @@
 
 //Hello World Program
 /// <summary>
-/// Day 2: C# Hello World Program
-/// https://vickychhetri.com/2022/08/16/day-2-c-hello-world-program/
+/// Day 5: C# – Basic Program Syntax
+/// https://vickychhetri.com/2022/08/19/day-5-c-basic-program-syntax/
 /// </summary>
 /// 
 
-Console.WriteLine("Hello World");
+using HelloWorld.RectangleApplication;
+
+Rectangle r = new Rectangle();
+r.Acceptdetails();
+r.Display();
+Console.ReadLine();
